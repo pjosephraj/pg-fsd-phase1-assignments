@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a7ca9e-a53e-4a8b-82c0-055e02f0e1a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/assignments/Assignment5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/assignments/InnerClassAssignment1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +40,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Assignment5">
-    <configuration name="Assignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.assignments.Assignment1" />
-      <module name="pg-fsd-phase1-assignments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.InnerClassAssignment1">
     <configuration name="Assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.assignments.Assignment2" />
       <module name="pg-fsd-phase1-assignments" />
@@ -105,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InnerClassAssignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.assignments.InnerClassAssignment1" />
+      <module name="pg-fsd-phase1-assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerClassAssignment1" />
         <item itemvalue="Application.Assignment5" />
         <item itemvalue="Application.Assignment4" />
         <item itemvalue="Application.Assignment3" />
         <item itemvalue="Application.Assignment2" />
-        <item itemvalue="Application.Assignment1" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655572894867</updated>
       <workItem from="1655572897164" duration="158000" />
-      <workItem from="1655638880856" duration="7500000" />
+      <workItem from="1655638880856" duration="9433000" />
     </task>
     <servers />
   </component>
