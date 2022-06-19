@@ -19,9 +19,7 @@ abstract class Vehicle {
         System.out.println("Fuel3: " + a + " -- " + b);
     }
 
-    void Vehicle(){}
-
-    void Vehicle(int speed, long distance) {
+    Vehicle(int speed, long distance) {
         this.speed = speed;
         this.distance = distance;
     }
@@ -43,9 +41,8 @@ class TwoWheeler extends Vehicle {
         System.out.println("Speed: " + super.speed + "\n" + "Distance: " + super.distance + "\n" + "Tyres: " + this.nos_of_tyres);
     }
 
-    public TwoWheeler(int speed, long distance) {
-        this.speed = speed;
-        this.distance = distance;
+    TwoWheeler(int speed, long distance) {
+        super(speed, distance);
     }
 }
 
@@ -64,9 +61,8 @@ class ThreeWheeler extends Vehicle {
         System.out.println("Speed: " + this.speed + "\n" + "Distance: " + this.distance + "\n" + "Tyres: " + this.nos_of_tyres);
     }
 
-    public ThreeWheeler(int speed, long distance) {
-        this.speed = speed;
-        this.distance = distance;
+    ThreeWheeler(int speed, long distance) {
+        super(speed, distance);
     }
 }
 
@@ -85,9 +81,8 @@ class FourWheeler extends Vehicle {
         System.out.println("Speed: " + this.speed + "\n" + "Distance: " + this.distance + "\n" + "Tyres: " + this.nos_of_tyres);
     }
 
-    public FourWheeler(int speed, long distance) {
-        this.speed = speed;
-        this.distance = distance;
+    FourWheeler(int speed, long distance) {
+        super(speed, distance);
     }
 }
 
@@ -106,9 +101,8 @@ class EightWheeler extends Vehicle {
         System.out.println("Speed: " + this.speed + "\n" + "Distance: " + this.distance + "\n" + "Tyres: " + this.nos_of_tyres);
     }
 
-    public EightWheeler(int speed, long distance) {
-        this.speed = speed;
-        this.distance = distance;
+    EightWheeler(int speed, long distance) {
+        super(speed, distance);
     }
 }
 
